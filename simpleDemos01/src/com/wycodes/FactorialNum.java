@@ -6,8 +6,7 @@ public class FactorialNum {
      * @param args
      */
     public static void main(String[] args) {
-        //System.out.println(testFactorialNum(4,1));
-        System.out.println(testFactorNum02(4));
+        System.out.println(testFactorNum03(4));
     }
 
     /**
@@ -37,5 +36,17 @@ public class FactorialNum {
             sum=sum*n;
         }
         return sum;
+    }
+
+    /**
+     * 最简洁写法
+     * @param i
+     * @return
+     */
+    public static int testFactorNum03(Integer i){
+        if(i == 0){
+            return 1;
+        }
+        return i*testFactorNum03(i-1);
     }
 }
