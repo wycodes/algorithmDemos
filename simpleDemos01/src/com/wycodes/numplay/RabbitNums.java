@@ -1,4 +1,4 @@
-package com.wycodes;
+package com.wycodes.numplay;
 
 import java.util.ArrayList;
 import java.util.List;

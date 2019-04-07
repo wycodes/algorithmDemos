@@ -1,4 +1,4 @@
-package com.wycodes;
+package com.wycodes.drawplay;
 
 public class PascalTriangleStar {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.wycodes;
+package com.wycodes.numplay;
 
 public class PascalTriangle {
     public static void main(String[] args) {

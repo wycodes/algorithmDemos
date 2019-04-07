@@ -1,4 +1,4 @@
-package com.wycodes;
+package com.wycodes.numplay;
 
 public class FactorialNum {
     /**
