@@ -7,7 +7,8 @@ public class PascalTriangleStar {
 
     /**
      * 绘制沙漏，这里利用了Math.abs()取绝对值的形式精简代码
-     * @param halfHeight
+     *
+     * @param halfHeight 这里的参数为半高
      */
     public static void drawStar(int halfHeight){
         for (int n=halfHeight;n>=(-halfHeight);n--){
