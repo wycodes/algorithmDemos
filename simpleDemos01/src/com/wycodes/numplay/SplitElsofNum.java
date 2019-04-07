@@ -11,7 +11,9 @@ public class SplitElsofNum {
      */
 
     public static void main(String[] args) {
-        System.out.println(seeSplit(500));
+        for(int index=20;index<=35;index++){
+            System.out.println(seeSplit(index));
+        }
     }
 
     private static ArrayList<Integer> arr =new ArrayList<>();
@@ -55,7 +57,9 @@ public class SplitElsofNum {
             buffer.append("*");
         }
         buffer.deleteCharAt(buffer.length()-1);
-        arr.clear();//GC回收
+        arr.clear();//此时arr的使命已经完成，把里面的数据清空，方便多次循环时使用
         return buffer.toString();
     }
+
+
 }
